@@ -1,0 +1,2 @@
+LocalDevice ld = LocalDevice.GetLocalDevice();
+DiscoveryAgent da = ld.getDiscoveryAgent();

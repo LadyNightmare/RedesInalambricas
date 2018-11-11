@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{Doc-Start}{\315ndice general}{}% 1
+\BOOKMARK [1][-]{section.1}{DISPOSITIVO DE COMUNICACI\323N BLUETOOTH}{}% 2
+\BOOKMARK [2][-]{subsection.1.1}{Ex1LocalInfo.java}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{DESCUBRIMIENTO DE DISPOSITIVOS REMOTOS}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Ex2DiscoverNearDevices.java}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Ex3DiscoverKnownDevice.java}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{DESCUBRIMIENTO DE SERVICIOS}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Ex4ServicesKnownDevice.java}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Ex5ServicesNearDevices.java}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Ex6PublicServicesNearDevices.java}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.4}{Ex7DeviceAndService.java}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{COMUNICACI\323N A TRAV\311S DE RFCOMM DE BLUETOOTH}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Aplicaci\363n Cliente-Servidor}{section.4}% 13

@@ -1,0 +1,247 @@
+import java.util.ArrayList;
+import java.util.List;
+
+import java.io.*;
+import java.util.Scanner;
+
+import javax.bluetooth.DataElement;
+import javax.bluetooth.DeviceClass;
+import javax.bluetooth.DiscoveryAgent;
+import javax.bluetooth.DiscoveryListener;
+import javax.bluetooth.LocalDevice;
+import javax.bluetooth.RemoteDevice;
+import javax.bluetooth.ServiceRecord;
+import javax.bluetooth.UUID;
+import javax.microedition.io.Connector;
+import javax.microedition.io.StreamConnection;
+import javax.microedition.io.StreamConnectionNotifier;
+
+import com.intel.bluetooth.EmulatorTestsHelper;
+
+/**
+  *
+  */
+public class EmulatorChatServer {
+
+        private static final UUID uuid = new UUID(0x1101);
+        static int SERVICE_NAME_ATTRID = 0x0100;
+        
+        String serviceurl = null;
+
+        private Thread serverThread;
+        
+
+        /**
+         * Arranque del emulador
+         * @throws Exception
+         */
+        public void setUp() throws Exception {
+                //super.setUp();
+                System.out.println("Setting up bluetooth emulator ...");
+                EmulatorTestsHelper.startInProcessServer();
+                EmulatorTestsHelper.useThreadLocalEmulator();
+                serverThread = EmulatorTestsHelper.runNewEmulatorStack(new ChatServerRunnable());
+        }
+
+        /**
+         * Finalización del emulador
+         * @throws Exception
+         */
+        public void tearDown() throws Exception {
+                if ((serverThread != null) && (serverThread.isAlive())) {
+            			serverThread.join();
+                    serverThread.interrupt();
+                }
+                EmulatorTestsHelper.stopInProcessServer();
+                System.out.println("Setting down bluetooth emulator...");
+        }
+
+        /**
+         * Thread que implementa la funcionalidad del servidor con el emulador
+         * @author juan
+         *
+         */
+        private static class ChatServerRunnable implements Runnable {
+        		private static String mensaje = "";
+
+        		public void run() {
+        			try {
+        				String url = "btspp://localhost:" + uuid.toString() + ";name=mychat";
+            			StreamConnectionNotifier service = (StreamConnectionNotifier) Connector.open(url);
+            			
+            			LocalDevice ld = LocalDevice.getLocalDevice();
+            			System.out.println("Server info: " + ld.getBluetoothAddress() + " - " + ld.getFriendlyName());
+            			System.out.println("Server started, waiting for clients...");
+            			
+            			StreamConnection con = (StreamConnection) service.acceptAndOpen();
+            			RemoteDevice dev = RemoteDevice.getRemoteDevice(con);
+            			System.out.println("BT Address of the remote device: " + dev.getBluetoothAddress());
+            			System.out.println("Name of the remote device: " + dev.getFriendlyName(true));
+
+            			InputStream is = con.openInputStream();
+            			BufferedReader br = new BufferedReader(new InputStreamReader(is));
+            			
+            			OutputStream os	= con.openOutputStream();
+            			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(os));
+            			
+            			Scanner sc = new Scanner(System.in);
+            			String response = "";
+
+            			while (!mensaje.equals("FIN.")) {
+            				System.out.println("Waiting for the client response...");
+            				mensaje = br.readLine();
+            				System.out.println(dev.getBluetoothAddress() + " - " + dev.getFriendlyName(true) + ": " + mensaje);
+            				response = sc.nextLine();
+            				bw.write(response);
+            				bw.newLine();
+            				bw.flush();
+            			}
+            			System.out.println("Device " + dev.getBluetoothAddress() + " - " + dev.getFriendlyName(true) + " disconnected successfully");
+            			br.close();
+            			bw.close();
+            			sc.close();
+            			mensaje = "";
+            			con.close();
+        			}catch(Exception e) {
+        				e.printStackTrace();
+        			}
+        			      
+        		}
+        }
+        
+        /**
+         * Funciones Bluetooth para el cliente (falta completar con la comunicación con el servidor)
+         * @throws Exception
+         */
+        public void startClient() throws Exception {
+        	List<RemoteDevice> devicesDiscovered = new ArrayList<RemoteDevice>();
+            final Object inquiryCompletedEvent = new Object();
+            
+
+            devicesDiscovered.clear();
+
+            DiscoveryListener listener = new DiscoveryListener() {
+
+                public void deviceDiscovered(RemoteDevice btDevice, DeviceClass cod) {
+                    System.out.println("Device " + btDevice.getBluetoothAddress() + " found");
+                    devicesDiscovered.add(btDevice);
+                    try {
+                        System.out.println("     Name: " + btDevice.getFriendlyName(false));
+                        System.out.println("     BT Address: " + btDevice.getFriendlyName(false));
+                    } catch (IOException cantGetDeviceName) {
+                    }
+                }
+
+                public void inquiryCompleted(int discType) {
+                    System.out.println("Device Inquiry completed!");
+                    synchronized(inquiryCompletedEvent){
+                        inquiryCompletedEvent.notifyAll();
+                    }
+                }
+
+                public void serviceSearchCompleted(int transID, int respCode) {
+                	System.out.println("Service search completed!");
+                    synchronized(inquiryCompletedEvent){
+                    	inquiryCompletedEvent.notifyAll();
+                    }
+                }
+
+                public void servicesDiscovered(int transID, ServiceRecord[] servRecord) {
+                	for (int i = 0; i < servRecord.length; i++) {
+                        String url = servRecord[i].getConnectionURL(ServiceRecord.NOAUTHENTICATE_NOENCRYPT, false);
+                        if (url == null) {
+                            continue;
+                        }
+                        DataElement serviceName = servRecord[i].getAttributeValue(0x0100);
+                        if (serviceName != null) {
+                            System.out.println("Service name: " + serviceName.getValue() + ". Service url: " + url);
+                            if(serviceName.getValue().equals("mychat")) {
+                            	
+                            	serviceurl=url;
+                            	
+                            }
+                        } else {
+                            System.out.println("Service name: " + url);
+                        }
+                    }
+                }
+            };
+            
+            synchronized(inquiryCompletedEvent) {
+                boolean started = LocalDevice.getLocalDevice().getDiscoveryAgent().startInquiry(DiscoveryAgent.GIAC, listener);
+                if (started) {
+                    System.out.println("Client Searching for devices...");
+                    inquiryCompletedEvent.wait();
+                    System.out.println(devicesDiscovered.size() +  " device(s) found");
+                }
+            }
+            if (!devicesDiscovered.isEmpty()){
+                    UUID uuids[] = new UUID[1];
+                    uuids[0] = new UUID(0x1101); // SerialPort
+                    int attridset[] = new int[1];
+                    attridset[0] = SERVICE_NAME_ATTRID;
+                    
+                    for (RemoteDevice d : devicesDiscovered) {
+                        System.out.println(
+                                "Services available on the device " + d.getBluetoothAddress() + " - " + d.getFriendlyName(false));
+                        LocalDevice.getLocalDevice().getDiscoveryAgent().searchServices(attridset, uuids, d, listener);
+                        synchronized (inquiryCompletedEvent) {
+                        	inquiryCompletedEvent.wait();
+                        }
+                    }
+                    if(serviceurl!=null) {
+                    	
+                    	StreamConnection service = (StreamConnection) Connector.open(serviceurl);
+
+            			RemoteDevice dev = RemoteDevice.getRemoteDevice(service);
+            			System.out.println("BT Address of the remote device: " + dev.getBluetoothAddress());
+            			System.out.println("Name of the remote device: " + dev.getFriendlyName(true));
+
+            			InputStream is = service.openInputStream();
+            			BufferedReader br = new BufferedReader(new InputStreamReader(is));
+            			
+            			OutputStream os	= service.openOutputStream();
+            			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(os));
+            			
+            			Scanner sc = new Scanner(System.in);
+            			String response = "";
+            			String mensaje = "";
+
+            			do {
+            				
+            				System.out.println("Cliente --->");
+            				mensaje = sc.nextLine();
+            				bw.write(mensaje);
+            				bw.newLine();
+            				bw.flush();
+            				System.out.println("Waiting for the server...");
+            				mensaje = br.readLine();
+            				System.out.println(dev.getBluetoothAddress() + " - " + dev.getFriendlyName(true) + ": " + mensaje);           				
+            				
+            			} while (!mensaje.equals("FIN."));
+            			
+            			System.out.println("Device " + dev.getBluetoothAddress() + " - " + dev.getFriendlyName(true) + " disconnected successfully");
+            			br.close();
+            			bw.close();
+            			sc.close();
+            			mensaje = "";
+            			service.close();
+                    	
+                    }
+            }
+        }
+        
+        public static void main(String[] args)  {
+            
+            try {
+            	EmulatorChatServer emulator = new EmulatorChatServer(); // Creamos el emulador para el servidor
+                emulator.setUp(); //Arrancamos el emulador
+                emulator.startClient(); //Ejecutamos los procesos Bluetooth como cliente
+                emulator.tearDown(); //Apagamos el servidor
+            } catch (Exception ex) {
+                ex.printStackTrace();
+            }    
+		}
+      
+         
+}

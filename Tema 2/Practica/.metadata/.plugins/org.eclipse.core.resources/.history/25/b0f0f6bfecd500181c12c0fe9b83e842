@@ -1,0 +1,17 @@
+import javax.bluetooth.*;
+
+public class LocalInfo {
+	
+	public static void main (String [] args) throws BluetoothStateException {
+
+		LocalDevice ld = LocalDevice.getLocalDevice();
+		
+		String properties = LocalDevice.getProperty("bluetooth.stack");
+		
+		System.out.println(ld.toString());
+		
+		System.out.println(properties);		
+
+}
+
+}

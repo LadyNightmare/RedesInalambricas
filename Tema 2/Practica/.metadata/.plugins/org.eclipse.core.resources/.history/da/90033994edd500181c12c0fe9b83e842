@@ -1,0 +1,22 @@
+import javax.bluetooth.*;
+
+public class DiscoverNearDevices {
+
+	public static void main (String [] args) {
+
+		try {
+			
+			LocalDevice ld = LocalDevice.getLocalDevice();
+			DiscoveryAgent da = ld.getDiscoveryAgent();
+			
+			System.out.println(da.retrieveDevices(0));
+			
+		} catch (Exception e) {
+			
+			System.out.println(e.getMessage());
+			
+		}
+
+	}	
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.bluetooth.LocalDevice"/>
+<fullyQualifiedTypeName name="Ex3DiscoverFriendDevices"/>
+<fullyQualifiedTypeName name="Ex2DiscoverNearDevices"/>
+<fullyQualifiedTypeName name="javax.bluetooth.UUID"/>
+<fullyQualifiedTypeName name="javax.bluetooth.DataElement"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="javax.bluetooth.DiscoveryListener"/>
+<fullyQualifiedTypeName name="javax.bluetooth.DeviceClass"/>
+<fullyQualifiedTypeName name="javax.bluetooth.ServiceRecord"/>
+</qualifiedTypeNameHistroy>

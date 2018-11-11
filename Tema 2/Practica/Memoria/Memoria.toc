@@ -1,0 +1,14 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\IeC {\'I}ndice general}{1}{Doc-Start}
+\contentsline {section}{\numberline {1}DISPOSITIVO DE COMUNICACI\IeC {\'O}N BLUETOOTH}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Ex1LocalInfo.java}{2}{subsection.1.1}
+\contentsline {section}{\numberline {2}DESCUBRIMIENTO DE DISPOSITIVOS REMOTOS}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Ex2DiscoverNearDevices.java}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Ex3DiscoverKnownDevice.java}{2}{subsection.2.2}
+\contentsline {section}{\numberline {3}DESCUBRIMIENTO DE SERVICIOS}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Ex4ServicesKnownDevice.java}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Ex5ServicesNearDevices.java}{3}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Ex6PublicServicesNearDevices.java}{4}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Ex7DeviceAndService.java}{4}{subsection.3.4}
+\contentsline {section}{\numberline {4}COMUNICACI\IeC {\'O}N A TRAV\IeC {\'E}S DE RFCOMM DE BLUETOOTH}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Aplicaci\IeC {\'o}n Cliente-Servidor}{5}{subsection.4.1}
