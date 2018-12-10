@@ -1,0 +1,20 @@
+ SSID=Home WIFI
+ SSID=phoiphas
+ SSID=concourse
+ SSID=Wildcard (Broadcast)
+ SSID=linksys
+ SSID=hfmpc
+ SSID=BOHO2
+ SSID=BOWDOIN
+ SSID=Wildcard (Broadcast)
+ SSID=30 Munroe St
+ SSID=Wildcard (Broadcast)
+ SSID=Wildcard (Broadcast)
+ SSID=linksys_SES_24086
+ SSID=linksys_SES_24086
+ SSID=linksys_SES_24086
+ SSID=linksys_SES_24086
+ SSID=Wildcard (Broadcast)
+ SSID=linksys_SES_24086
+ SSID=30 Munroe St
+

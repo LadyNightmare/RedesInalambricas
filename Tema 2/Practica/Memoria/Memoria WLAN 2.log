@@ -1,0 +1,1721 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  10 DEC 2018 14:22
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"Memoria WLAN 2.tex"
+(./Memoria WLAN 2.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip43
+\thanksmargin=\skip44
+\droptitle=\skip45
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen105
+\Hy@linkcounter=\count87
+\Hy@pagecounter=\count88
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count89
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count90
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen106
+\Fld@menulength=\count91
+\Field@Width=\dimen107
+\Fld@charsize=\dimen108
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count92
+\c@Item=\count93
+\c@Hfootnote=\count94
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count95
+\c@bookmark@seq@number=\count96
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count97
+\U@D=\dimen109
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count98
+)
+\es@quottoks=\toks17
+\es@quotdepth=\count99
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+   defining Unicode char U+301 (decimal 769)
+   defining Unicode char U+202F (decimal 8239)
+
+(./Memoria WLAN 2.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+)
+\openout1 = `"Memoria WLAN 2.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen110
+\scratchbox=\box26
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen111
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks19
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box27
+Package hyperref Info: Link coloring ON on input line 21.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count106
+)
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
+
+(./Memoria WLAN 2.out) (./Memoria WLAN 2.out)
+\@outlinefile=\write3
+\openout3 = `"Memoria WLAN 2.out"'.
+
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 27.
+<WLAN/wireshark.jpg, id=84, 973.6375pt x 548.0475pt>
+File: WLAN/wireshark.jpg Graphic file (type jpg)
+<use WLAN/wireshark.jpg>
+Package pdftex.def Info: WLAN/wireshark.jpg  used on input line 29.
+(pdftex.def)             Requested size: 389.44809pt x 219.2151pt.
+
+Overfull \hbox (44.44809pt too wide) in paragraph at lines 29--30
+ [] 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./WLAN/wireshark.jpg>]
+(./Memoria WLAN 2.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+)
+\tf@toc=\write4
+\openout4 = `"Memoria WLAN 2.toc"'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.38 \newpage
+              [1]
+<WLAN/SSIDs.png, id=118, 1312.905pt x 455.7025pt>
+File: WLAN/SSIDs.png Graphic file (type png)
+<use WLAN/SSIDs.png>
+Package pdftex.def Info: WLAN/SSIDs.png  used on input line 49.
+(pdftex.def)             Requested size: 393.87454pt x 136.71179pt.
+
+Overfull \hbox (48.87454pt too wide) in paragraph at lines 49--50
+ [] 
+ []
+
+<WLAN/SSIDfinal.png, id=119, 1056.94875pt x 187.70125pt>
+File: WLAN/SSIDfinal.png Graphic file (type png)
+<use WLAN/SSIDfinal.png>
+Package pdftex.def Info: WLAN/SSIDfinal.png  used on input line 64.
+(pdftex.def)             Requested size: 422.772pt x 75.07916pt.
+
+Overfull \hbox (77.772pt too wide) in paragraph at lines 64--65
+ [] 
+ []
+
+<WLAN/interval.png, id=120, 330.23375pt x 26.0975pt>
+File: WLAN/interval.png Graphic file (type png)
+<use WLAN/interval.png>
+Package pdftex.def Info: WLAN/interval.png  used on input line 72.
+(pdftex.def)             Requested size: 132.09114pt x 10.4388pt.
+<WLAN/subtype.png, id=121, 405.515pt x 42.1575pt>
+File: WLAN/subtype.png Graphic file (type png)
+<use WLAN/subtype.png>
+Package pdftex.def Info: WLAN/subtype.png  used on input line 80.
+(pdftex.def)             Requested size: 162.20311pt x 16.86269pt.
+[2 <./WLAN/SSIDs.png> <./WLAN/SSIDfinal.png> <./WLAN/interval.png>]
+<WLAN/beacon.png, id=127, 1355.0625pt x 403.5075pt>
+File: WLAN/beacon.png Graphic file (type png)
+<use WLAN/beacon.png>
+Package pdftex.def Info: WLAN/beacon.png  used on input line 90.
+(pdftex.def)             Requested size: 406.5219pt x 121.05318pt.
+
+Overfull \hbox (61.5219pt too wide) in paragraph at lines 90--91
+ [] 
+ []
+
+<WLAN/SSIDssss.png, id=128, 141.52875pt x 150.5625pt>
+File: WLAN/SSIDssss.png Graphic file (type png)
+<use WLAN/SSIDssss.png>
+Package pdftex.def Info: WLAN/SSIDssss.png  used on input line 107.
+(pdftex.def)             Requested size: 56.61049pt x 60.22392pt.
+File: WLAN/interval.png Graphic file (type png)
+<use WLAN/interval.png>
+Package pdftex.def Info: WLAN/interval.png  used on input line 115.
+(pdftex.def)             Requested size: 132.09114pt x 10.4388pt.
+[3 <./WLAN/subtype.png> <./WLAN/beacon.png> <./WLAN/SSIDssss.png>]
+File: WLAN/subtype.png Graphic file (type png)
+<use WLAN/subtype.png>
+Package pdftex.def Info: WLAN/subtype.png  used on input line 124.
+(pdftex.def)             Requested size: 162.20311pt x 16.86269pt.
+<WLAN/correcto1.png, id=133, 1355.0625pt x 528.97626pt>
+File: WLAN/correcto1.png Graphic file (type png)
+<use WLAN/correcto1.png>
+Package pdftex.def Info: WLAN/correcto1.png  used on input line 137.
+(pdftex.def)             Requested size: 406.5219pt x 158.69409pt.
+
+Overfull \hbox (61.5219pt too wide) in paragraph at lines 137--138
+ [] 
+ []
+
+<WLAN/correcto2.png, id=134, 1355.0625pt x 528.97626pt>
+File: WLAN/correcto2.png Graphic file (type png)
+<use WLAN/correcto2.png>
+Package pdftex.def Info: WLAN/correcto2.png  used on input line 140.
+(pdftex.def)             Requested size: 406.5219pt x 158.69409pt.
+
+Overfull \hbox (61.5219pt too wide) in paragraph at lines 140--141
+ [] 
+ []
+
+<WLAN/correcto3.png, id=135, 1353.055pt x 527.9725pt>
+File: WLAN/correcto3.png Graphic file (type png)
+<use WLAN/correcto3.png>
+Package pdftex.def Info: WLAN/correcto3.png  used on input line 143.
+(pdftex.def)             Requested size: 405.91963pt x 158.39296pt.
+
+Overfull \hbox (60.91963pt too wide) in paragraph at lines 143--144
+ [] 
+ []
+
+[4 <./WLAN/correcto1.png> <./WLAN/correcto2.png>]
+<WLAN/correcto4.png, id=140, 1353.055pt x 528.97626pt>
+File: WLAN/correcto4.png Graphic file (type png)
+<use WLAN/correcto4.png>
+Package pdftex.def Info: WLAN/correcto4.png  used on input line 146.
+(pdftex.def)             Requested size: 405.91963pt x 158.69409pt.
+
+Overfull \hbox (60.91963pt too wide) in paragraph at lines 146--147
+ [] 
+ []
+
+<WLAN/correcto5.png, id=141, 1352.05125pt x 526.96875pt>
+File: WLAN/correcto5.png Graphic file (type png)
+<use WLAN/correcto5.png>
+Package pdftex.def Info: WLAN/correcto5.png  used on input line 149.
+(pdftex.def)             Requested size: 405.6185pt x 158.09184pt.
+
+Overfull \hbox (60.6185pt too wide) in paragraph at lines 149--150
+ [] 
+ []
+
+<WLAN/correcto6.png, id=142, 1354.05875pt x 523.9575pt>
+File: WLAN/correcto6.png Graphic file (type png)
+<use WLAN/correcto6.png>
+Package pdftex.def Info: WLAN/correcto6.png  used on input line 152.
+(pdftex.def)             Requested size: 406.22076pt x 157.18846pt.
+
+Overfull \hbox (61.22076pt too wide) in paragraph at lines 152--153
+ [] 
+ []
+
+[5 <./WLAN/correcto3.png> <./WLAN/correcto4.png> <./WLAN/correcto5.png>]
+<WLAN/correcto7.png, id=147, 1349.04pt x 520.94624pt>
+File: WLAN/correcto7.png Graphic file (type png)
+<use WLAN/correcto7.png>
+Package pdftex.def Info: WLAN/correcto7.png  used on input line 155.
+(pdftex.def)             Requested size: 404.71512pt x 156.28508pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 155--156
+ [] 
+ []
+
+<WLAN/correcto8.png, id=148, 1347.0325pt x 521.95pt>
+File: WLAN/correcto8.png Graphic file (type png)
+<use WLAN/correcto8.png>
+Package pdftex.def Info: WLAN/correcto8.png  used on input line 158.
+(pdftex.def)             Requested size: 404.11287pt x 156.5862pt.
+
+Overfull \hbox (59.11287pt too wide) in paragraph at lines 158--159
+ [] 
+ []
+
+<WLAN/correcto9.png, id=149, 1351.0475pt x 518.93875pt>
+File: WLAN/correcto9.png Graphic file (type png)
+<use WLAN/correcto9.png>
+Package pdftex.def Info: WLAN/correcto9.png  used on input line 161.
+(pdftex.def)             Requested size: 405.31738pt x 155.68282pt.
+
+Overfull \hbox (60.31738pt too wide) in paragraph at lines 161--162
+ [] 
+ []
+
+[6 <./WLAN/correcto6.png> <./WLAN/correcto7.png> <./WLAN/correcto8.png>]
+<WLAN/correcto10.png, id=155, 1349.04pt x 520.94624pt>
+File: WLAN/correcto10.png Graphic file (type png)
+<use WLAN/correcto10.png>
+Package pdftex.def Info: WLAN/correcto10.png  used on input line 164.
+(pdftex.def)             Requested size: 404.71512pt x 156.28508pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 164--165
+ [] 
+ []
+
+<WLAN/correcto11.png, id=156, 1347.0325pt x 519.9425pt>
+File: WLAN/correcto11.png Graphic file (type png)
+<use WLAN/correcto11.png>
+Package pdftex.def Info: WLAN/correcto11.png  used on input line 167.
+(pdftex.def)             Requested size: 404.11287pt x 155.98395pt.
+
+Overfull \hbox (59.11287pt too wide) in paragraph at lines 167--168
+ [] 
+ []
+
+<WLAN/correcto12.png, id=157, 860.21375pt x 381.425pt>
+File: WLAN/correcto12.png Graphic file (type png)
+<use WLAN/correcto12.png>
+Package pdftex.def Info: WLAN/correcto12.png  used on input line 170.
+(pdftex.def)             Requested size: 258.06612pt x 114.42838pt.
+[7 <./WLAN/correcto9.png> <./WLAN/correcto10.png> <./WLAN/correcto11.png>]
+<WLAN/inco1.png, id=162, 1351.0475pt x 516.93124pt>
+File: WLAN/inco1.png Graphic file (type png)
+<use WLAN/inco1.png>
+Package pdftex.def Info: WLAN/inco1.png  used on input line 176.
+(pdftex.def)             Requested size: 405.31738pt x 155.08057pt.
+
+Overfull \hbox (60.31738pt too wide) in paragraph at lines 176--177
+ [] 
+ []
+
+<WLAN/inco2.png, id=163, 1349.04pt x 499.8675pt>
+File: WLAN/inco2.png Graphic file (type png)
+<use WLAN/inco2.png>
+Package pdftex.def Info: WLAN/inco2.png  used on input line 179.
+(pdftex.def)             Requested size: 404.71512pt x 149.9614pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 179--180
+ [] 
+ []
+
+<WLAN/inco3.png, id=164, 1352.05125pt x 500.87125pt>
+File: WLAN/inco3.png Graphic file (type png)
+<use WLAN/inco3.png>
+Package pdftex.def Info: WLAN/inco3.png  used on input line 182.
+(pdftex.def)             Requested size: 405.6185pt x 150.26253pt.
+
+Overfull \hbox (60.6185pt too wide) in paragraph at lines 182--183
+ [] 
+ []
+
+[8 <./WLAN/correcto12.png> <./WLAN/inco1.png> <./WLAN/inco2.png>]
+<WLAN/inco4.png, id=169, 1350.04375pt x 498.86375pt>
+File: WLAN/inco4.png Graphic file (type png)
+<use WLAN/inco4.png>
+Package pdftex.def Info: WLAN/inco4.png  used on input line 185.
+(pdftex.def)             Requested size: 405.01625pt x 149.66028pt.
+
+Overfull \hbox (60.01625pt too wide) in paragraph at lines 185--186
+ [] 
+ []
+
+<WLAN/inco5.png, id=170, 1352.05125pt x 501.875pt>
+File: WLAN/inco5.png Graphic file (type png)
+<use WLAN/inco5.png>
+Package pdftex.def Info: WLAN/inco5.png  used on input line 188.
+(pdftex.def)             Requested size: 405.6185pt x 150.56366pt.
+
+Overfull \hbox (60.6185pt too wide) in paragraph at lines 188--189
+ [] 
+ []
+
+<WLAN/inco6.png, id=171, 1349.04pt x 501.875pt>
+File: WLAN/inco6.png Graphic file (type png)
+<use WLAN/inco6.png>
+Package pdftex.def Info: WLAN/inco6.png  used on input line 191.
+(pdftex.def)             Requested size: 404.71512pt x 150.56366pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 191--192
+ [] 
+ []
+
+[9 <./WLAN/inco3.png> <./WLAN/inco4.png> <./WLAN/inco5.png>]
+<WLAN/inco7.png, id=176, 1349.04pt x 212.795pt>
+File: WLAN/inco7.png Graphic file (type png)
+<use WLAN/inco7.png>
+Package pdftex.def Info: WLAN/inco7.png  used on input line 194.
+(pdftex.def)             Requested size: 404.71512pt x 63.83897pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 194--195
+ [] 
+ []
+
+<WLAN/req.png, id=177, 416.55624pt x 39.14626pt>
+File: WLAN/req.png Graphic file (type png)
+<use WLAN/req.png>
+Package pdftex.def Info: WLAN/req.png  used on input line 205.
+(pdftex.def)             Requested size: 166.61954pt x 15.65822pt.
+<WLAN/res.png, id=178, 425.59pt x 37.13875pt>
+File: WLAN/res.png Graphic file (type png)
+<use WLAN/res.png>
+Package pdftex.def Info: WLAN/res.png  used on input line 208.
+(pdftex.def)             Requested size: 170.23297pt x 14.85522pt.
+<WLAN/probreq.png, id=179, 1212.53pt x 445.665pt>
+File: WLAN/probreq.png Graphic file (type png)
+<use WLAN/probreq.png>
+Package pdftex.def Info: WLAN/probreq.png  used on input line 216.
+(pdftex.def)             Requested size: 363.76181pt x 133.70053pt.
+
+Overfull \hbox (18.76181pt too wide) in paragraph at lines 216--217
+ [] 
+ []
+
+[10 <./WLAN/inco6.png> <./WLAN/inco7.png> <./WLAN/req.png> <./WLAN/res.png>]
+<WLAN/probres.png, id=185, 1315.91624pt x 551.05875pt>
+File: WLAN/probres.png Graphic file (type png)
+<use WLAN/probres.png>
+Package pdftex.def Info: WLAN/probres.png  used on input line 219.
+(pdftex.def)             Requested size: 394.77792pt x 165.3189pt.
+
+Overfull \hbox (49.77792pt too wide) in paragraph at lines 219--220
+ [] 
+ []
+
+<WLAN/probreqlocal.png, id=186, 1206.5075pt x 343.2825pt>
+File: WLAN/probreqlocal.png Graphic file (type png)
+<use WLAN/probreqlocal.png>
+Package pdftex.def Info: WLAN/probreqlocal.png  used on input line 238.
+(pdftex.def)             Requested size: 361.95505pt x 102.98553pt.
+
+Overfull \hbox (16.95505pt too wide) in paragraph at lines 238--239
+ [] 
+ []
+
+[11 <./WLAN/probreq.png> <./WLAN/probres.png>]
+<WLAN/probreslocal.png, id=191, 1319.93124pt x 552.0625pt>
+File: WLAN/probreslocal.png Graphic file (type png)
+<use WLAN/probreslocal.png>
+Package pdftex.def Info: WLAN/probreslocal.png  used on input line 241.
+(pdftex.def)             Requested size: 395.98242pt x 165.62003pt.
+
+Overfull \hbox (50.98242pt too wide) in paragraph at lines 241--242
+ [] 
+ []
+
+<WLAN/probes.png, id=192, 1303.87125pt x 39.14626pt>
+File: WLAN/probes.png Graphic file (type png)
+<use WLAN/probes.png>
+Package pdftex.def Info: WLAN/probes.png  used on input line 251.
+(pdftex.def)             Requested size: 391.1644pt x 11.74396pt.
+
+Overfull \hbox (46.1644pt too wide) in paragraph at lines 251--252
+ [] 
+ []
+
+<WLAN/probreq1.png, id=193, 1353.055pt x 530.98375pt>
+File: WLAN/probreq1.png Graphic file (type png)
+<use WLAN/probreq1.png>
+Package pdftex.def Info: WLAN/probreq1.png  used on input line 257.
+(pdftex.def)             Requested size: 405.91963pt x 159.29634pt.
+
+Overfull \hbox (60.91963pt too wide) in paragraph at lines 257--258
+ [] 
+ []
+
+[12 <./WLAN/probreqlocal.png> <./WLAN/probreslocal.png> <./WLAN/probes.png>]
+<WLAN/probreq2.png, id=199, 1353.055pt x 523.9575pt>
+File: WLAN/probreq2.png Graphic file (type png)
+<use WLAN/probreq2.png>
+Package pdftex.def Info: WLAN/probreq2.png  used on input line 260.
+(pdftex.def)             Requested size: 405.91963pt x 157.18846pt.
+
+Overfull \hbox (60.91963pt too wide) in paragraph at lines 260--261
+ [] 
+ []
+
+<WLAN/probreq3.png, id=200, 1349.04pt x 522.95375pt>
+File: WLAN/probreq3.png Graphic file (type png)
+<use WLAN/probreq3.png>
+Package pdftex.def Info: WLAN/probreq3.png  used on input line 263.
+(pdftex.def)             Requested size: 404.71512pt x 156.88733pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 263--264
+ [] 
+ []
+
+<WLAN/probreq4.png, id=201, 1353.055pt x 521.95pt>
+File: WLAN/probreq4.png Graphic file (type png)
+<use WLAN/probreq4.png>
+Package pdftex.def Info: WLAN/probreq4.png  used on input line 266.
+(pdftex.def)             Requested size: 405.91963pt x 156.5862pt.
+
+Overfull \hbox (60.91963pt too wide) in paragraph at lines 266--267
+ [] 
+ []
+
+[13 <./WLAN/probreq1.png> <./WLAN/probreq2.png> <./WLAN/probreq3.png>]
+<WLAN/probreq5.png, id=206, 1350.04375pt x 525.965pt>
+File: WLAN/probreq5.png Graphic file (type png)
+<use WLAN/probreq5.png>
+Package pdftex.def Info: WLAN/probreq5.png  used on input line 269.
+(pdftex.def)             Requested size: 405.01625pt x 157.79071pt.
+
+Overfull \hbox (60.01625pt too wide) in paragraph at lines 269--270
+ [] 
+ []
+
+<WLAN/probreq6.png, id=207, 1346.02875pt x 208.78pt>
+File: WLAN/probreq6.png Graphic file (type png)
+<use WLAN/probreq6.png>
+Package pdftex.def Info: WLAN/probreq6.png  used on input line 272.
+(pdftex.def)             Requested size: 403.81174pt x 62.63448pt.
+
+Overfull \hbox (58.81174pt too wide) in paragraph at lines 272--273
+ [] 
+ []
+
+<WLAN/probres1.png, id=208, 1352.05125pt x 522.95375pt>
+File: WLAN/probres1.png Graphic file (type png)
+<use WLAN/probres1.png>
+Package pdftex.def Info: WLAN/probres1.png  used on input line 278.
+(pdftex.def)             Requested size: 405.6185pt x 156.88733pt.
+
+Overfull \hbox (60.6185pt too wide) in paragraph at lines 278--279
+ [] 
+ []
+
+[14 <./WLAN/probreq4.png> <./WLAN/probreq5.png> <./WLAN/probreq6.png>]
+<WLAN/probres2.png, id=213, 1350.04375pt x 524.96124pt>
+File: WLAN/probres2.png Graphic file (type png)
+<use WLAN/probres2.png>
+Package pdftex.def Info: WLAN/probres2.png  used on input line 281.
+(pdftex.def)             Requested size: 405.01625pt x 157.48958pt.
+
+Overfull \hbox (60.01625pt too wide) in paragraph at lines 281--282
+ [] 
+ []
+
+<WLAN/probres3.png, id=214, 1350.04375pt x 519.9425pt>
+File: WLAN/probres3.png Graphic file (type png)
+<use WLAN/probres3.png>
+Package pdftex.def Info: WLAN/probres3.png  used on input line 284.
+(pdftex.def)             Requested size: 405.01625pt x 155.98395pt.
+
+Overfull \hbox (60.01625pt too wide) in paragraph at lines 284--285
+ [] 
+ []
+
+<WLAN/probres4.png, id=215, 1349.04pt x 520.94624pt>
+File: WLAN/probres4.png Graphic file (type png)
+<use WLAN/probres4.png>
+Package pdftex.def Info: WLAN/probres4.png  used on input line 287.
+(pdftex.def)             Requested size: 404.71512pt x 156.28508pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 287--288
+ [] 
+ []
+
+[15 <./WLAN/probres1.png> <./WLAN/probres2.png> <./WLAN/probres3.png>]
+<WLAN/probres5.png, id=220, 1350.04375pt x 530.98375pt>
+File: WLAN/probres5.png Graphic file (type png)
+<use WLAN/probres5.png>
+Package pdftex.def Info: WLAN/probres5.png  used on input line 290.
+(pdftex.def)             Requested size: 405.01625pt x 159.29634pt.
+
+Overfull \hbox (60.01625pt too wide) in paragraph at lines 290--291
+ [] 
+ []
+
+<WLAN/probres6.png, id=221, 1346.02875pt x 521.95pt>
+File: WLAN/probres6.png Graphic file (type png)
+<use WLAN/probres6.png>
+Package pdftex.def Info: WLAN/probres6.png  used on input line 293.
+(pdftex.def)             Requested size: 403.81174pt x 156.5862pt.
+
+Overfull \hbox (58.81174pt too wide) in paragraph at lines 293--294
+ [] 
+ []
+
+<WLAN/probres7.png, id=222, 1351.0475pt x 523.9575pt>
+File: WLAN/probres7.png Graphic file (type png)
+<use WLAN/probres7.png>
+Package pdftex.def Info: WLAN/probres7.png  used on input line 296.
+(pdftex.def)             Requested size: 405.31738pt x 157.18846pt.
+
+Overfull \hbox (60.31738pt too wide) in paragraph at lines 296--297
+ [] 
+ []
+
+[16 <./WLAN/probres4.png> <./WLAN/probres5.png> <./WLAN/probres6.png>]
+<WLAN/probres8.png, id=227, 1351.0475pt x 519.9425pt>
+File: WLAN/probres8.png Graphic file (type png)
+<use WLAN/probres8.png>
+Package pdftex.def Info: WLAN/probres8.png  used on input line 299.
+(pdftex.def)             Requested size: 405.31738pt x 155.98395pt.
+
+Overfull \hbox (60.31738pt too wide) in paragraph at lines 299--300
+ [] 
+ []
+
+<WLAN/probres9.png, id=228, 1347.0325pt x 519.9425pt>
+File: WLAN/probres9.png Graphic file (type png)
+<use WLAN/probres9.png>
+Package pdftex.def Info: WLAN/probres9.png  used on input line 302.
+(pdftex.def)             Requested size: 404.11287pt x 155.98395pt.
+
+Overfull \hbox (59.11287pt too wide) in paragraph at lines 302--303
+ [] 
+ []
+
+<WLAN/probres10.png, id=229, 1351.0475pt x 110.4125pt>
+File: WLAN/probres10.png Graphic file (type png)
+<use WLAN/probres10.png>
+Package pdftex.def Info: WLAN/probres10.png  used on input line 305.
+(pdftex.def)             Requested size: 405.31738pt x 33.124pt.
+
+Overfull \hbox (60.31738pt too wide) in paragraph at lines 305--306
+ [] 
+ []
+
+[17 <./WLAN/probres7.png> <./WLAN/probres8.png> <./WLAN/probres9.png>]
+<WLAN/assreq.png, id=234, 1370.11874pt x 399.4925pt>
+File: WLAN/assreq.png Graphic file (type png)
+<use WLAN/assreq.png>
+Package pdftex.def Info: WLAN/assreq.png  used on input line 316.
+(pdftex.def)             Requested size: 411.03879pt x 119.84866pt.
+
+Overfull \hbox (66.03879pt too wide) in paragraph at lines 316--317
+ [] 
+ []
+
+<WLAN/assreqt.png, id=235, 473.77pt x 45.16875pt>
+File: WLAN/assreqt.png Graphic file (type png)
+<use WLAN/assreqt.png>
+Package pdftex.def Info: WLAN/assreqt.png  used on input line 319.
+(pdftex.def)             Requested size: 189.50464pt x 18.06717pt.
+<WLAN/assres.png, id=236, 1370.11874pt x 98.3675pt>
+File: WLAN/assres.png Graphic file (type png)
+<use WLAN/assres.png>
+Package pdftex.def Info: WLAN/assres.png  used on input line 323.
+(pdftex.def)             Requested size: 411.03879pt x 29.51047pt.
+
+Overfull \hbox (66.03879pt too wide) in paragraph at lines 323--324
+ [] 
+ []
+
+<WLAN/assrest.png, id=237, 440.64626pt x 43.16125pt>
+File: WLAN/assrest.png Graphic file (type png)
+<use WLAN/assrest.png>
+Package pdftex.def Info: WLAN/assrest.png  used on input line 326.
+(pdftex.def)             Requested size: 176.25537pt x 17.26418pt.
+<WLAN/assreq1.png, id=238, 1348.03625pt x 525.965pt>
+File: WLAN/assreq1.png Graphic file (type png)
+<use WLAN/assreq1.png>
+Package pdftex.def Info: WLAN/assreq1.png  used on input line 337.
+(pdftex.def)             Requested size: 404.414pt x 157.79071pt.
+
+Overfull \hbox (59.414pt too wide) in paragraph at lines 337--338
+ [] 
+ []
+
+[18 <./WLAN/probres10.png> <./WLAN/assreq.png> <./WLAN/assreqt.png> <./WLAN/ass
+res.png> <./WLAN/assrest.png>]
+<WLAN/assreq2.png, id=244, 1346.02875pt x 520.94624pt>
+File: WLAN/assreq2.png Graphic file (type png)
+<use WLAN/assreq2.png>
+Package pdftex.def Info: WLAN/assreq2.png  used on input line 340.
+(pdftex.def)             Requested size: 403.81174pt x 156.28508pt.
+
+Overfull \hbox (58.81174pt too wide) in paragraph at lines 340--341
+ [] 
+ []
+
+<WLAN/assreq3.png, id=245, 1346.02875pt x 523.9575pt>
+File: WLAN/assreq3.png Graphic file (type png)
+<use WLAN/assreq3.png>
+Package pdftex.def Info: WLAN/assreq3.png  used on input line 343.
+(pdftex.def)             Requested size: 403.81174pt x 157.18846pt.
+
+Overfull \hbox (58.81174pt too wide) in paragraph at lines 343--344
+ [] 
+ []
+
+<WLAN/assreq4.png, id=246, 1349.04pt x 519.9425pt>
+File: WLAN/assreq4.png Graphic file (type png)
+<use WLAN/assreq4.png>
+Package pdftex.def Info: WLAN/assreq4.png  used on input line 346.
+(pdftex.def)             Requested size: 404.71512pt x 155.98395pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 346--347
+ [] 
+ []
+
+[19 <./WLAN/assreq1.png> <./WLAN/assreq2.png> <./WLAN/assreq3.png>]
+<WLAN/assreq5.png, id=251, 1349.04pt x 523.9575pt>
+File: WLAN/assreq5.png Graphic file (type png)
+<use WLAN/assreq5.png>
+Package pdftex.def Info: WLAN/assreq5.png  used on input line 349.
+(pdftex.def)             Requested size: 404.71512pt x 157.18846pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 349--350
+ [] 
+ []
+
+<WLAN/assreq6.png, id=252, 1342.01375pt x 523.9575pt>
+File: WLAN/assreq6.png Graphic file (type png)
+<use WLAN/assreq6.png>
+Package pdftex.def Info: WLAN/assreq6.png  used on input line 352.
+(pdftex.def)             Requested size: 402.60724pt x 157.18846pt.
+
+Overfull \hbox (57.60724pt too wide) in paragraph at lines 352--353
+ [] 
+ []
+
+<WLAN/assreq7.png, id=253, 1348.03625pt x 124.465pt>
+File: WLAN/assreq7.png Graphic file (type png)
+<use WLAN/assreq7.png>
+Package pdftex.def Info: WLAN/assreq7.png  used on input line 355.
+(pdftex.def)             Requested size: 404.414pt x 37.33978pt.
+
+Overfull \hbox (59.414pt too wide) in paragraph at lines 355--356
+ [] 
+ []
+
+[20 <./WLAN/assreq4.png> <./WLAN/assreq5.png> <./WLAN/assreq6.png>]
+<WLAN/assres1.png, id=258, 1346.02875pt x 523.9575pt>
+File: WLAN/assres1.png Graphic file (type png)
+<use WLAN/assres1.png>
+Package pdftex.def Info: WLAN/assres1.png  used on input line 361.
+(pdftex.def)             Requested size: 403.81174pt x 157.18846pt.
+
+Overfull \hbox (58.81174pt too wide) in paragraph at lines 361--362
+ [] 
+ []
+
+<WLAN/assres2.png, id=259, 1350.04375pt x 525.965pt>
+File: WLAN/assres2.png Graphic file (type png)
+<use WLAN/assres2.png>
+Package pdftex.def Info: WLAN/assres2.png  used on input line 364.
+(pdftex.def)             Requested size: 405.01625pt x 157.79071pt.
+
+Overfull \hbox (60.01625pt too wide) in paragraph at lines 364--365
+ [] 
+ []
+
+<WLAN/assres3.png, id=260, 1351.0475pt x 522.95375pt>
+File: WLAN/assres3.png Graphic file (type png)
+<use WLAN/assres3.png>
+Package pdftex.def Info: WLAN/assres3.png  used on input line 367.
+(pdftex.def)             Requested size: 405.31738pt x 156.88733pt.
+
+Overfull \hbox (60.31738pt too wide) in paragraph at lines 367--368
+ [] 
+ []
+
+[21 <./WLAN/assreq7.png> <./WLAN/assres1.png> <./WLAN/assres2.png>]
+<WLAN/assres4.png, id=265, 1349.04pt x 523.9575pt>
+File: WLAN/assres4.png Graphic file (type png)
+<use WLAN/assres4.png>
+Package pdftex.def Info: WLAN/assres4.png  used on input line 370.
+(pdftex.def)             Requested size: 404.71512pt x 157.18846pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 370--371
+ [] 
+ []
+
+<WLAN/assres5.png, id=266, 1350.04375pt x 520.94624pt>
+File: WLAN/assres5.png Graphic file (type png)
+<use WLAN/assres5.png>
+Package pdftex.def Info: WLAN/assres5.png  used on input line 373.
+(pdftex.def)             Requested size: 405.01625pt x 156.28508pt.
+
+Overfull \hbox (60.01625pt too wide) in paragraph at lines 373--374
+ [] 
+ []
+
+<WLAN/assres6.png, id=267, 1350.04375pt x 525.965pt>
+File: WLAN/assres6.png Graphic file (type png)
+<use WLAN/assres6.png>
+Package pdftex.def Info: WLAN/assres6.png  used on input line 376.
+(pdftex.def)             Requested size: 405.01625pt x 157.79071pt.
+
+Overfull \hbox (60.01625pt too wide) in paragraph at lines 376--377
+ [] 
+ []
+
+[22 <./WLAN/assres3.png> <./WLAN/assres4.png> <./WLAN/assres5.png>]
+<WLAN/assres7.png, id=272, 1347.0325pt x 524.96124pt>
+File: WLAN/assres7.png Graphic file (type png)
+<use WLAN/assres7.png>
+Package pdftex.def Info: WLAN/assres7.png  used on input line 379.
+(pdftex.def)             Requested size: 404.11287pt x 157.48958pt.
+
+Overfull \hbox (59.11287pt too wide) in paragraph at lines 379--380
+ [] 
+ []
+
+<WLAN/assres8.png, id=273, 1347.0325pt x 469.755pt>
+File: WLAN/assres8.png Graphic file (type png)
+<use WLAN/assres8.png>
+Package pdftex.def Info: WLAN/assres8.png  used on input line 382.
+(pdftex.def)             Requested size: 404.11287pt x 140.92758pt.
+
+Overfull \hbox (59.11287pt too wide) in paragraph at lines 382--383
+ [] 
+ []
+
+[23 <./WLAN/assres6.png> <./WLAN/assres7.png> <./WLAN/assres8.png>]
+<WLAN/c4.png, id=278, 552.0625pt x 185.69376pt>
+File: WLAN/c4.png Graphic file (type png)
+<use WLAN/c4.png>
+Package pdftex.def Info: WLAN/c4.png  used on input line 391.
+(pdftex.def)             Requested size: 220.82108pt x 74.27618pt.
+<WLAN/lista.png, id=279, 1313.90875pt x 473.77pt>
+File: WLAN/lista.png Graphic file (type png)
+<use WLAN/lista.png>
+Package pdftex.def Info: WLAN/lista.png  used on input line 403.
+(pdftex.def)             Requested size: 394.17567pt x 142.1321pt.
+
+Overfull \hbox (49.17567pt too wide) in paragraph at lines 403--404
+ [] 
+ []
+
+<WLAN/BSSID.png, id=280, 1370.11874pt x 736.7525pt>
+File: WLAN/BSSID.png Graphic file (type png)
+<use WLAN/BSSID.png>
+Package pdftex.def Info: WLAN/BSSID.png  used on input line 418.
+(pdftex.def)             Requested size: 411.03879pt x 221.02745pt.
+
+Overfull \hbox (66.03879pt too wide) in paragraph at lines 418--419
+ [] 
+ []
+
+[24 <./WLAN/c4.png> <./WLAN/lista.png>]
+<WLAN/tramatcp.png, id=286, 1308.89pt x 35.13126pt>
+File: WLAN/tramatcp.png Graphic file (type png)
+<use WLAN/tramatcp.png>
+Package pdftex.def Info: WLAN/tramatcp.png  used on input line 429.
+(pdftex.def)             Requested size: 392.67003pt x 10.53944pt.
+
+Overfull \hbox (47.67003pt too wide) in paragraph at lines 429--430
+ [] 
+ []
+
+<WLAN/tcpres1.png, id=287, 1349.04pt x 525.965pt>
+File: WLAN/tcpres1.png Graphic file (type png)
+<use WLAN/tcpres1.png>
+Package pdftex.def Info: WLAN/tcpres1.png  used on input line 435.
+(pdftex.def)             Requested size: 404.71512pt x 157.79071pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 435--436
+ [] 
+ []
+
+[25 <./WLAN/BSSID.png> <./WLAN/tramatcp.png>]
+<WLAN/tcpres2.png, id=292, 1351.0475pt x 524.96124pt>
+File: WLAN/tcpres2.png Graphic file (type png)
+<use WLAN/tcpres2.png>
+Package pdftex.def Info: WLAN/tcpres2.png  used on input line 438.
+(pdftex.def)             Requested size: 405.31738pt x 157.48958pt.
+
+Overfull \hbox (60.31738pt too wide) in paragraph at lines 438--439
+ [] 
+ []
+
+<WLAN/tcpres3.png, id=293, 1351.0475pt x 523.9575pt>
+File: WLAN/tcpres3.png Graphic file (type png)
+<use WLAN/tcpres3.png>
+Package pdftex.def Info: WLAN/tcpres3.png  used on input line 441.
+(pdftex.def)             Requested size: 405.31738pt x 157.18846pt.
+
+Overfull \hbox (60.31738pt too wide) in paragraph at lines 441--442
+ [] 
+ []
+
+<WLAN/tcpres5.png, id=294, 1348.03625pt x 522.95375pt>
+File: WLAN/tcpres5.png Graphic file (type png)
+<use WLAN/tcpres5.png>
+Package pdftex.def Info: WLAN/tcpres5.png  used on input line 444.
+(pdftex.def)             Requested size: 404.414pt x 156.88733pt.
+
+Overfull \hbox (59.414pt too wide) in paragraph at lines 444--445
+ [] 
+ []
+
+[26 <./WLAN/tcpres1.png> <./WLAN/tcpres2.png> <./WLAN/tcpres3.png>]
+<WLAN/tcpres6.png, id=299, 1347.0325pt x 524.96124pt>
+File: WLAN/tcpres6.png Graphic file (type png)
+<use WLAN/tcpres6.png>
+Package pdftex.def Info: WLAN/tcpres6.png  used on input line 447.
+(pdftex.def)             Requested size: 404.11287pt x 157.48958pt.
+
+Overfull \hbox (59.11287pt too wide) in paragraph at lines 447--448
+ [] 
+ []
+
+<WLAN/tcpres7.png, id=300, 1348.03625pt x 523.9575pt>
+File: WLAN/tcpres7.png Graphic file (type png)
+<use WLAN/tcpres7.png>
+Package pdftex.def Info: WLAN/tcpres7.png  used on input line 450.
+(pdftex.def)             Requested size: 404.414pt x 157.18846pt.
+
+Overfull \hbox (59.414pt too wide) in paragraph at lines 450--451
+ [] 
+ []
+
+<WLAN/tcpres8.png, id=301, 1349.04pt x 525.965pt>
+File: WLAN/tcpres8.png Graphic file (type png)
+<use WLAN/tcpres8.png>
+Package pdftex.def Info: WLAN/tcpres8.png  used on input line 453.
+(pdftex.def)             Requested size: 404.71512pt x 157.79071pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 453--454
+ [] 
+ []
+
+[27 <./WLAN/tcpres5.png> <./WLAN/tcpres6.png> <./WLAN/tcpres7.png>]
+<WLAN/tcpres9.png, id=306, 1346.02875pt x 185.69376pt>
+File: WLAN/tcpres9.png Graphic file (type png)
+<use WLAN/tcpres9.png>
+Package pdftex.def Info: WLAN/tcpres9.png  used on input line 456.
+(pdftex.def)             Requested size: 403.81174pt x 55.70854pt.
+
+Overfull \hbox (58.81174pt too wide) in paragraph at lines 456--457
+ [] 
+ []
+
+<WLAN/tcpreq1.png, id=307, 1347.0325pt x 523.9575pt>
+File: WLAN/tcpreq1.png Graphic file (type png)
+<use WLAN/tcpreq1.png>
+Package pdftex.def Info: WLAN/tcpreq1.png  used on input line 462.
+(pdftex.def)             Requested size: 404.11287pt x 157.18846pt.
+
+Overfull \hbox (59.11287pt too wide) in paragraph at lines 462--463
+ [] 
+ []
+
+<WLAN/tcpreq2.png, id=308, 1351.0475pt x 521.95pt>
+File: WLAN/tcpreq2.png Graphic file (type png)
+<use WLAN/tcpreq2.png>
+Package pdftex.def Info: WLAN/tcpreq2.png  used on input line 465.
+(pdftex.def)             Requested size: 405.31738pt x 156.5862pt.
+
+Overfull \hbox (60.31738pt too wide) in paragraph at lines 465--466
+ [] 
+ []
+
+[28 <./WLAN/tcpres8.png> <./WLAN/tcpres9.png> <./WLAN/tcpreq1.png>]
+<WLAN/tcpreq3.png, id=313, 1345.025pt x 526.96875pt>
+File: WLAN/tcpreq3.png Graphic file (type png)
+<use WLAN/tcpreq3.png>
+Package pdftex.def Info: WLAN/tcpreq3.png  used on input line 468.
+(pdftex.def)             Requested size: 403.5106pt x 158.09184pt.
+
+Overfull \hbox (58.5106pt too wide) in paragraph at lines 468--469
+ [] 
+ []
+
+<WLAN/tcpreq4.png, id=314, 1349.04pt x 525.965pt>
+File: WLAN/tcpreq4.png Graphic file (type png)
+<use WLAN/tcpreq4.png>
+Package pdftex.def Info: WLAN/tcpreq4.png  used on input line 471.
+(pdftex.def)             Requested size: 404.71512pt x 157.79071pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 471--472
+ [] 
+ []
+
+<WLAN/tcpreq5.png, id=315, 1349.04pt x 525.965pt>
+File: WLAN/tcpreq5.png Graphic file (type png)
+<use WLAN/tcpreq5.png>
+Package pdftex.def Info: WLAN/tcpreq5.png  used on input line 474.
+(pdftex.def)             Requested size: 404.71512pt x 157.79071pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 474--475
+ [] 
+ []
+
+[29 <./WLAN/tcpreq2.png> <./WLAN/tcpreq3.png> <./WLAN/tcpreq4.png>]
+<WLAN/tcpreq6.png, id=320, 1347.0325pt x 524.96124pt>
+File: WLAN/tcpreq6.png Graphic file (type png)
+<use WLAN/tcpreq6.png>
+Package pdftex.def Info: WLAN/tcpreq6.png  used on input line 477.
+(pdftex.def)             Requested size: 404.11287pt x 157.48958pt.
+
+Overfull \hbox (59.11287pt too wide) in paragraph at lines 477--478
+ [] 
+ []
+
+<WLAN/tcpreq7.png, id=321, 1348.03625pt x 524.96124pt>
+File: WLAN/tcpreq7.png Graphic file (type png)
+<use WLAN/tcpreq7.png>
+Package pdftex.def Info: WLAN/tcpreq7.png  used on input line 480.
+(pdftex.def)             Requested size: 404.414pt x 157.48958pt.
+
+Overfull \hbox (59.414pt too wide) in paragraph at lines 480--481
+ [] 
+ []
+
+<WLAN/tcpreq8.png, id=322, 1347.0325pt x 102.3825pt>
+File: WLAN/tcpreq8.png Graphic file (type png)
+<use WLAN/tcpreq8.png>
+Package pdftex.def Info: WLAN/tcpreq8.png  used on input line 483.
+(pdftex.def)             Requested size: 404.11287pt x 30.71498pt.
+
+Overfull \hbox (59.11287pt too wide) in paragraph at lines 483--484
+ [] 
+ []
+
+[30 <./WLAN/tcpreq5.png> <./WLAN/tcpreq6.png> <./WLAN/tcpreq7.png>]
+<WLAN/nf.png, id=328, 1312.905pt x 542.025pt>
+File: WLAN/nf.png Graphic file (type png)
+<use WLAN/nf.png>
+Package pdftex.def Info: WLAN/nf.png  used on input line 492.
+(pdftex.def)             Requested size: 393.87454pt x 162.60875pt.
+
+Overfull \hbox (48.87454pt too wide) in paragraph at lines 492--493
+ [] 
+ []
+
+<WLAN/nf1.png, id=329, 1345.025pt x 523.9575pt>
+File: WLAN/nf1.png Graphic file (type png)
+<use WLAN/nf1.png>
+Package pdftex.def Info: WLAN/nf1.png  used on input line 498.
+(pdftex.def)             Requested size: 403.5106pt x 157.18846pt.
+
+Overfull \hbox (58.5106pt too wide) in paragraph at lines 498--499
+ [] 
+ []
+
+<WLAN/nf2.png, id=330, 1350.04375pt x 521.95pt>
+File: WLAN/nf2.png Graphic file (type png)
+<use WLAN/nf2.png>
+Package pdftex.def Info: WLAN/nf2.png  used on input line 501.
+(pdftex.def)             Requested size: 405.01625pt x 156.5862pt.
+
+Overfull \hbox (60.01625pt too wide) in paragraph at lines 501--502
+ [] 
+ []
+
+[31 <./WLAN/tcpreq8.png> <./WLAN/nf.png> <./WLAN/nf1.png>]
+<WLAN/nf3.png, id=335, 1353.055pt x 524.96124pt>
+File: WLAN/nf3.png Graphic file (type png)
+<use WLAN/nf3.png>
+Package pdftex.def Info: WLAN/nf3.png  used on input line 504.
+(pdftex.def)             Requested size: 405.91963pt x 157.48958pt.
+
+Overfull \hbox (60.91963pt too wide) in paragraph at lines 504--505
+ [] 
+ []
+
+<WLAN/nf4.png, id=336, 1350.04375pt x 520.94624pt>
+File: WLAN/nf4.png Graphic file (type png)
+<use WLAN/nf4.png>
+Package pdftex.def Info: WLAN/nf4.png  used on input line 507.
+(pdftex.def)             Requested size: 405.01625pt x 156.28508pt.
+
+Overfull \hbox (60.01625pt too wide) in paragraph at lines 507--508
+ [] 
+ []
+
+<WLAN/nf5.png, id=337, 1350.04375pt x 166.6225pt>
+File: WLAN/nf5.png Graphic file (type png)
+<use WLAN/nf5.png>
+Package pdftex.def Info: WLAN/nf5.png  used on input line 510.
+(pdftex.def)             Requested size: 405.01625pt x 49.98712pt.
+
+Overfull \hbox (60.01625pt too wide) in paragraph at lines 510--511
+ [] 
+ []
+
+[32 <./WLAN/nf2.png> <./WLAN/nf3.png> <./WLAN/nf4.png>]
+<WLAN/flags.png, id=342, 1321.93875pt x 461.725pt>
+File: WLAN/flags.png Graphic file (type png)
+<use WLAN/flags.png>
+Package pdftex.def Info: WLAN/flags.png  used on input line 520.
+(pdftex.def)             Requested size: 396.58469pt x 138.51857pt.
+
+Overfull \hbox (51.58469pt too wide) in paragraph at lines 520--521
+ [] 
+ []
+
+<WLAN/packet.png, id=343, 1313.90875pt x 23.08624pt>
+File: WLAN/packet.png Graphic file (type png)
+<use WLAN/packet.png>
+Package pdftex.def Info: WLAN/packet.png  used on input line 523.
+(pdftex.def)             Requested size: 394.17567pt x 6.92592pt.
+
+Overfull \hbox (49.17567pt too wide) in paragraph at lines 523--524
+ [] 
+ []
+
+<WLAN/txt.png, id=344, 915.42pt x 735.74875pt>
+File: WLAN/txt.png Graphic file (type png)
+<use WLAN/txt.png>
+Package pdftex.def Info: WLAN/txt.png  used on input line 526.
+(pdftex.def)             Requested size: 274.62811pt x 220.72632pt.
+[33 <./WLAN/nf5.png> <./WLAN/flags.png> <./WLAN/packet.png> <./WLAN/txt.png>]
+<WLAN/MAC.png, id=349, 818.05624pt x 425.59pt>
+File: WLAN/MAC.png Graphic file (type png)
+<use WLAN/MAC.png>
+Package pdftex.def Info: WLAN/MAC.png  used on input line 542.
+(pdftex.def)             Requested size: 327.21669pt x 170.23297pt.
+<WLAN/IP.png, id=350, 260.975pt x 38.1425pt>
+File: WLAN/IP.png Graphic file (type png)
+<use WLAN/IP.png>
+Package pdftex.def Info: WLAN/IP.png  used on input line 555.
+(pdftex.def)             Requested size: 104.38815pt x 15.25671pt.
+
+[34 <./WLAN/MAC.png> <./WLAN/IP.png>]
+<WLAN/rts.png, id=355, 1318.9275pt x 546.04pt>
+File: WLAN/rts.png Graphic file (type png)
+<use WLAN/rts.png>
+Package pdftex.def Info: WLAN/rts.png  used on input line 566.
+(pdftex.def)             Requested size: 395.6813pt x 163.81326pt.
+
+Overfull \hbox (50.6813pt too wide) in paragraph at lines 566--567
+ [] 
+ []
+
+<WLAN/cts.png, id=356, 1313.90875pt x 545.03625pt>
+File: WLAN/cts.png Graphic file (type png)
+<use WLAN/cts.png>
+Package pdftex.def Info: WLAN/cts.png  used on input line 569.
+(pdftex.def)             Requested size: 394.17567pt x 163.51213pt.
+
+Overfull \hbox (49.17567pt too wide) in paragraph at lines 569--570
+ [] 
+ []
+
+<WLAN/rts1.png, id=357, 1352.05125pt x 564.1075pt>
+File: WLAN/rts1.png Graphic file (type png)
+<use WLAN/rts1.png>
+Package pdftex.def Info: WLAN/rts1.png  used on input line 583.
+(pdftex.def)             Requested size: 405.6185pt x 169.23355pt.
+
+Overfull \hbox (60.6185pt too wide) in paragraph at lines 583--584
+ [] 
+ []
+
+[35 <./WLAN/rts.png> <./WLAN/cts.png>]
+<WLAN/rts2.png, id=362, 1349.04pt x 562.1pt>
+File: WLAN/rts2.png Graphic file (type png)
+<use WLAN/rts2.png>
+Package pdftex.def Info: WLAN/rts2.png  used on input line 586.
+(pdftex.def)             Requested size: 404.71512pt x 168.6313pt.
+
+Overfull \hbox (59.71512pt too wide) in paragraph at lines 586--587
+ [] 
+ []
+
+<WLAN/rts3.png, id=363, 1358.07375pt x 63.23625pt>
+File: WLAN/rts3.png Graphic file (type png)
+<use WLAN/rts3.png>
+Package pdftex.def Info: WLAN/rts3.png  used on input line 589.
+(pdftex.def)             Requested size: 407.42526pt x 18.97101pt.
+
+Overfull \hbox (62.42526pt too wide) in paragraph at lines 589--590
+ [] 
+ []
+
+<WLAN/cts1.png, id=364, 1351.0475pt x 565.11125pt>
+File: WLAN/cts1.png Graphic file (type png)
+<use WLAN/cts1.png>
+Package pdftex.def Info: WLAN/cts1.png  used on input line 595.
+(pdftex.def)             Requested size: 405.31738pt x 169.53468pt.
+
+Overfull \hbox (60.31738pt too wide) in paragraph at lines 595--596
+ [] 
+ []
+
+[36 <./WLAN/rts1.png> <./WLAN/rts2.png> <./WLAN/rts3.png>]
+<WLAN/cts2.png, id=370, 1351.0475pt x 565.11125pt>
+File: WLAN/cts2.png Graphic file (type png)
+<use WLAN/cts2.png>
+Package pdftex.def Info: WLAN/cts2.png  used on input line 598.
+(pdftex.def)             Requested size: 405.31738pt x 169.53468pt.
+
+Overfull \hbox (60.31738pt too wide) in paragraph at lines 598--599
+ [] 
+ []
+
+<WLAN/cts3.png, id=371, 1346.02875pt x 119.44624pt>
+File: WLAN/cts3.png Graphic file (type png)
+<use WLAN/cts3.png>
+Package pdftex.def Info: WLAN/cts3.png  used on input line 601.
+(pdftex.def)             Requested size: 403.81174pt x 35.83414pt.
+
+Overfull \hbox (58.81174pt too wide) in paragraph at lines 601--602
+ [] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 604.
+[37 <./WLAN/cts1.png> <./WLAN/cts2.png> <./WLAN/cts3.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 604.
+
+(./Memoria WLAN 2.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 604.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 604.
+Package rerunfilecheck Info: File `"Memoria WLAN 2".out' has not changed.
+(rerunfilecheck)             Checksum: 28539045EA8EAC4F3480E97FF0FBDC99;1067.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 604.
+ ) 
+Here is how much of TeX's memory you used:
+ 7304 strings out of 492982
+ 104995 string characters out of 6134895
+ 192012 words of memory out of 5000000
+ 10648 multiletter control sequences out of 15000+600000
+ 8241 words of font info for 29 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 28i,7n,35p,306b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Memoria WLAN 2.pdf" (38 pages, 6974371 bytes).
+PDF statistics:
+ 415 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 696 words of extra memory for PDF output out of 10000 (max. 10000000)
+
