@@ -1,0 +1,208 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{titling}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=darkgray, urlcolor =gray]{hyperref}
+\usepackage[spanish]{babel}
+\DeclareUnicodeCharacter{301}{~}
+\usepackage{url}
+\DeclareUnicodeCharacter{202F}{\,}
+
+
+\title{Internet of Things}
+\author{Cristina Díaz García}
+\date{Enero 2019}
+
+\renewcommand\maketitlehooka{\null\mbox{}\vfill}
+\renewcommand\maketitlehookd{\vfill\null}
+
+
+\begin{document}
+
+\addcontentsline{toc}{section}{Índice general}
+
+\begin{titlingpage}
+\maketitle
+
+\begin{center}
+\includegraphics[scale=0.07]{images/iot.jpg} 
+\end{center}
+
+\end{titlingpage}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{¿Qué es el Internet de las Cosas?}
+
+Internet de las Cosas, \textit{Internet of Things, abreviado IoT,} en inglés, es la conexión, ya no solo entre personas, sino también entre objetos más cotidianos. En otras palabras: es tener conectados a Internet objetos como los \textit{wearables} (relojes, collares, anillos, gafas...), televisiones y electrodomésticos, entre otros. También semáforos, coches..., cualquier objeto concevible. Con estos objetos, podemos tanto modificar lo que nos rodea como manipular de cualquier manera los datos que reciven.
+
+\subsection{Arquitectura}
+
+Como pasa con la arquitectura de las comunicaciones de red, tenemos más de un modelo para explicarla, que varían desde las 3 hasta las 7 capas, dependiendo de la fuente, pero en esencia son iguales: unos más conceptuales y con menos capas, útiles para entender cómo funciona, y otros más detallados y útiles para las personas que desarrollen los sistemas para el Internet de las Cosas.
+
+En este caso, como nuestra meta es ser ingenieras informáticas, usaremos uno un poco más detallado, uno con siete capas, que es el que más frecuentemente se ve.
+
+\begin{center}
+\includegraphics[scale=0.3]{images/3y5.jpg}
+\hfill
+\includegraphics[scale=0.2]{images/7.jpg}
+\end{center}
+
+Este modelo tiene siete capas:
+
+\begin{itemize}
+\item Dispositivos físicos y controladores
+\item Conectividad
+\item Edge Computing
+\item Acumulación de datos
+\item Abstracción de datos
+\item Aplicación
+\item Colaboración y procesos
+\end{itemize}
+
+\section{Dispositivos físicos y controladores}
+
+En esta capa se encuentran una gran variedad de dispositivos: sensores de temperatura, de luz, de voz, placas como Arduino o Raspberry Pi... Todos ellos nos sirven para captar señales que los rodean, que servirán como \textit{input} de nuestro sistema.
+
+En esta capa la tecnología que se usa es puramente hardware. En la siguiente imagen sacada de \href{https://www.quora.com/Which-is-better-Arduino-or-raspberry-pi-in-regard-to-IOT-projects-with-them}{un post} del portal de intercambio de información Quora podemos ver que a nivel de prestaciones, una raspberry pi es bastante superior a un arduino.
+
+\begin{center}
+\includegraphics[scale=0.4]{images/arduinovsrpi.png}
+\end{center}
+
+¿Por qué entonces mucha gente elige arduino para sus proyectos de IoT? Por su simplicidad. Como todo, depende del tipo de proyecto al que nos enfrentemos, será más adecuado uno u otro. Si se trata de un proyecto con tareas repetitivas como leer los valores de los sensores o automatización, sin duda Arduino es muy buena opción. Si por el contrario, requerimos de más complejidad, como con procesamiento de imagen o reconocimento de voz, lo mejor sería apostar por Raspberry PI.
+
+También en esta capa, por extensión, iría el Sistema Operativo que nuestra placa use, en el caso de Raspberry PI.
+
+\section{Conectividad}
+
+En esta capa se produce un preprocesamiento de los datos, para después enviarlo a la red, aumentando así el rendimiento y disminuyendo el consumo y los costes.
+
+Entre otras, las tecnologías que se usan en esta capa son:
+
+\begin{itemize}
+\item \textbf{Bluetooth:} Ya que es muy útil en distancias cortas.
+\item \textbf{WiFi:} Es de las mejores tecnologías, aunque exige bastante energía para una buena conectividad y no todos los sistemas podrían disponer de esa cantidad de energía.
+\item \textbf{4G LTE:} Es más barata que la red 4G, pero también más lenta. Otro inconveniente es el consumo energético.
+\item \textbf{Ethernet:} Permite conexiones a gran velocidad, pero tiene el gran inconveniente de ser con cable, por lo que una red inalámbrica o de gran rango deja de tener mucho sentido.
+\item \textbf{RFID:} Tiene un rango de comunicación corto y no son reprogramables, pero también son anticolisión (se puede leer más de una al mismo tiempo). Al haber tres tipos de etiquetas, se puede optimizar el consumo de energía.
+\item \textbf{NFC:} Es de corto alcancem y también se puede optimizar el consumo energético con sus dos modos de funcionamiento.
+\item \textbf{Zigbee:} Es confiable, interoperable y robusto, consume poca energía y es bastante seguro.
+\item (W)PAN, (W)LAN, MAN, WAN...
+\end{itemize}
+
+\section{Edge Computing}
+
+En esta capa es en la que se hace el preprocesamiento como tal, usualmente en la nube. Se filtran eventos de poco interés, se transforman los datos a una forma más conveniente, se le añaden atributos como un tag, se combinan los datos, se guardan en bases de datos, se detectan tendencias.... Se usan tecnologías como son:
+
+\begin{itemize}
+\item almacenamiento SQL, datos sin estructura (raw)...
+\item Apache Spark, Apache Storm, Apache Kafka...
+\end{itemize}
+
+\section{Acumulación de datos}
+
+Esta capa también es conocida como \textit{Big Data}, la base sobre la que se sustenta una parte importante de la tecnología de hoy en día: es un conjunto inmenso de datos, tanto que su almacenamiento y su manipulación se hacen costosas, ya sea respecto a los recursos hardware como a las técnicas tradicionalmente usadas.
+
+Las tecnologías que se usan son, entre otras:
+
+\begin{itemize}
+\item APIs basadas en servicios web
+\item Frameworks como Hadoop
+\item Lenguajes de programación como Python y R
+\item Bases de datos NoSQL como MongoDB
+\item Elasticsearch
+\item Apache Storm, Apache Spark...
+\end{itemize}
+
+\section{Abstracción de datos}
+
+Esta capa también es conocida como \textit{Data Mining}, en la que se hace una extracción de la información y de patrones en ella, es decir, ver a rasgos generales qué información tenemos y cómo organizarla, cómo agruparla para que después podamos extraer fácilmente conclusiones para tomar las decisiones que veamos convenientes.
+
+Las tecnologías que se usan son, entre otras:
+
+\begin{itemize}
+\item APIs basadas en servicios web
+\item Software como RapidMiner, SAS, Orange...
+\item Lenguajes de programación como R, Python...
+\end{itemize}
+
+\section{Aplicación}
+
+Se usan la misma tecnología que en cualquier aplicación que no sea de IoT, entre ellas:
+
+\begin{itemize}
+\item HTTP/HTTPS, TCP, UDP...
+\item Diferentes lenguajes de programación como Python, C/C++, C\#, Java...
+\item HTML, CSS, JavaScript
+\item Serverlets
+\item Google App Engine
+\item Computación en la nube
+\item Consultas SQL para interactuar con las bases de datos.
+\end{itemize}
+
+\section{Colaboración y procesos}
+
+En esta capa es donde se reflejan las decisiones tomadas, y también el sector al que se aplican: transporte, optimización y automatización de procesos, domótica, agricultura...
+
+Aquí podríamos encontrar actividades y procesos como el soporte al cliente, las analíticas y las APIs, las actualizaciones y las configuraciones, la monitorización y el mantenimiento, aplicaciones y dispositivos móviles, finanzas, localización y tracking...
+
+\section{Seguridad}
+
+La seguridad en el Internet de las Cosas es un asunto al que cada vez se le da más importancia. En las diferentes capas se aplican diferentes métodos aumentar la seguridad (encriptación, integridad de datos, privacidad...), pero aun así, durante estos últimos años hemos sufrido ataques importantes, como \href{el DDoS sufrido por uno de los servidores más grandes de EE.UU.}{https://es.gizmodo.com/confirmado-el-ataque-ddos-que-tumbo-la-red-en-eeuu-sur-1788100823}, que dejó sin Internet a gran parte del país. También se ha demostrado que es \href{relativamente fácil atacar un coche autónomo}{https://www.v3.co.uk/v3-uk/news/2424912/driverless-cars-vulnerable-to-paralysis-through-laser-hack-attacks}, por ejemplo.
+
+En lo que a nosotras como usuarias y consumidoras podemos hacer para protegernos y evitar estos ataques, estos son algunos de los consejos:
+
+\begin{itemize}
+\item Poner contraseñas personalizadas y robustas, y usar también un cifrado robusto.
+\item Actualizar constantemente.
+\item Deshabilitar o proteger el acceso remoto a los dispositivos mientras no estemos usándolos, y deshabilitar también las características no usadas en general.
+\item Hacer uso de las medidas de seguridad implantadas en los dispositivos.
+\end{itemize}
+
+A las empresas fabricantes, se les recomienda, en general, aumentar la seguridad con protocolos de cifrado y de protección del código y de los datos que se recolectan.
+
+\section{Ejemplos en la vida real}
+
+El Internet de las Cosas está tomando cada vez un lugar más relevante en nuestro día a día, y podemos encontrarlo en aspectos tan diferentes como:
+
+\begin{itemize}
+\item \textbf{Domótica:} Sensores de humo y gas, \textit{Smart TVs}, cámaras de seguridad, puertas/ventanas/luces automáticas, controles de temperatura...
+\item \textbf{Smart Cities:} Semáforos que tengan en cuenta el tráfico de esa intersección, supervisión del tráfico en general, gestión de parkings inteligente, gestión de los recursos de agua o energía de la ciudad...
+\item \textbf{Salud y Fitness:} Wearables como relojes, gafas, ropa..., sensores usados para medir la glucosa en sangre, la tensión, el ritmo cardíaco...
+\item \textbf{Agricultura:} Medición de parámetros como la humedad, la temperatura o la concentración de cierto componente (minerales, pesticidas o cualquier sustancia que nos interese)...
+\item \textbf{Cadenas de producción e industria:} Gestionar el stock de los productos y solicitar provisiones cuando se llegue a los mínimo, hacer un seguimiento de los productos en la cadena de producción, identificar los productos inequívocamente, junto con toda la información correspondiente en una etiqueta RFID...
+\end{itemize}
+
+\begin{thebibliography}{9}
+
+\bibitem{IoT} \textit{IoT image}, \url{https://unsplash.com/photos/Q1p7bh3SHj8}.
+\bibitem{Def} \textit{Definición IoT}, \url{https://es.wikipedia.org/wiki/Internet\_de\_las\_cosas}.
+\bibitem{Background} \textit{Artículo sobre IoT}, \url{https://humanizationoftechnology.com/redes-cableadas-para-seguridad-en-iot-primera-parte/revista/iot/07/2018/}.
+\bibitem{Architecture} \textit{Arquitectura de IoT}, \url{https://www.t-systemsblog.es/estas-son-las-capas-del-internet-de-las-cosas/}.
+\bibitem{Archi} \textit{Artículo sobre IoT}, \url{https://www.hindawi.com/journals/jece/2017/9324035/}.
+\bibitem{Arch} \textit{Artículo sobre IoT}, \url{https://www.sciencedirect.com/science/article/pii/S0167739X13000241}, \url{https://ac.els-cdn.com/S0167739X13000241/1-s2.0-S0167739X13000241-main.pdf?_tid=0afc9abd-d042-439d-8adf-8bacbf5f0c9e&acdnat=1545373988_a0057a06a57ff14ffa72e114ea44e6c3}.
+\bibitem{EdgeComputing} \textit{Edge compmuting}, \url{https://www.xataka.com/internet-of-things/edge-computing-que-es-y-por-que-hay-gente-que-piensa-que-es-el-futuro}.
+\bibitem{Modelo} \textit{Modelo IoT}, \url{http://bluechip.ignaciogavilan.com/2016/12/un-modelo-de-referencia-para-internet.html}.
+\bibitem{IoT2} \textit{A fondo: ¿Qué es el IoT(Internet de las cosas)?}, \url{https://www.domodesk.com/221-a-fondo-que-es-iot-el-internet-de-las-cosas.html}.
+\bibitem{ArduinoVSrpi} \textit{Comparativa de Arduino y Raspberry PI para IoT}, \url{https://www.quora.com/Which-is-better-Arduino-or-raspberry-pi-in-regard-to-IOT-projects-with-them}.
+\bibitem{Architecture1} \textit{Arquitectura IoT}, \url{https://www.zemsania.com/recursos-zemsania/whitepapers/DTS/arquitecturaIoT.pdf}
+\item{EdgeVSFog} \textit{Edge computing vs. fog computing: Definitions and enterprise uses}, \url{https://www.cisco.com/c/en/us/solutions/enterprise-networks/edge-computing.html}.
+\item{Conectividad} \textit{Tecnologías de conectividad aptas para Internet of Things}, \url{https://www.bmobile.com.mx/tecnologias-de-conectividad-aptas-para-internet-of-things-bmobile/}.
+\item{Connectivity} \textit{Conectividad IoT}, \url{https://aprendiendoarduino.wordpress.com/2018/11/16/conectividad-iot/}.
+\item{ZigBee} \textit{Zigbee: The Open, Global Wireless Standard for Connecting Everyday Devices}, \url{https://www.zigbee.org/zigbee-for-developers/}.
+\item{NFC} \textit{IoT Technologies – Sensors, 6LoWPAN, ZigBee, RFID, NFC}, \url{https://blog.sitm.ac.in/iot-technologies/}.
+\item{App} \textit{Arquitectura IoT, prototipando los dispositivos del futuro}, \url{https://programarfacil.com/podcast/arduino-wifi-proyectos-iot/}.
+\item{DataMinig} \textit{Software de data mining: realiza análisis de datos más efectivos}, \url{https://www.ionos.es/digitalguide/online-marketing/analisis-web/software-de-data-mining-las-mejores-herramientas/}.
+\item{SeguridadIoT} \textit{El reto de la seguridad en IoT: ejemplos de ataques y cómo podrían haberse evitado}, \url{https://aunclicdelastic.blogthinkbig.com/el-reto-de-la-seguridad-en-iot/}.
+\item{BigData} \textit{7 Herramientas Big Data para tu empresa}, \url{http://www.iic.uam.es/innovacion/herramientas-big-data-para-empresa/}.
+\item{Info} \textit{Infografía}, \url{https://s3.amazonaws.com/postscapes/IoT-Harbor-Postscapes-Infographic.pdf}.
+\item{Libro} \textit{Networks, Internet of Thing for Architects}, O'Reilly Media.
+\end{thebibliography}
+
+\end{document}

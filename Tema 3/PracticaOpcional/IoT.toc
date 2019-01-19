@@ -1,0 +1,13 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\IeC {\'I}ndice general}{1}{Doc-Start}
+\contentsline {section}{\numberline {1}\IeC {\textquestiondown }Qu\IeC {\'e} es el Internet de las Cosas?}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Arquitectura}{2}{subsection.1.1}
+\contentsline {section}{\numberline {2}Dispositivos f\IeC {\'\i }sicos y controladores}{3}{section.2}
+\contentsline {section}{\numberline {3}Conectividad}{3}{section.3}
+\contentsline {section}{\numberline {4}Edge Computing}{4}{section.4}
+\contentsline {section}{\numberline {5}Acumulaci\IeC {\'o}n de datos}{4}{section.5}
+\contentsline {section}{\numberline {6}Abstracci\IeC {\'o}n de datos}{5}{section.6}
+\contentsline {section}{\numberline {7}Aplicaci\IeC {\'o}n}{5}{section.7}
+\contentsline {section}{\numberline {8}Colaboraci\IeC {\'o}n y procesos}{5}{section.8}
+\contentsline {section}{\numberline {9}Seguridad}{6}{section.9}
+\contentsline {section}{\numberline {10}Ejemplos en la vida real}{6}{section.10}
